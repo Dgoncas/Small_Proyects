@@ -1,0 +1,8 @@
+
+<div class="todo-list-wrapper">
+    <h1> Todo list App</h1>
+    <app-add-todo (addTodo)="onAddTodo($event)"></app-add-todo>
+    <table class="todo-list">
+        <app-todo-item  (deleteTodo)="onDeleteTodo($event)" *ngFor="let todo of todos" [todo]=todo></app-todo-item>
+    </table>
+</div>

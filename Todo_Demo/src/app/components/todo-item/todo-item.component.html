@@ -1,0 +1,9 @@
+<td class="todo-item">
+
+    <div class="todo-item-wrapper">
+        <input [checked]="todo.completed" (change)="onChange()" type="checkbox" />
+        <p [ngClass]="getClass()">{{ todo.title }}</p>
+        <input (click)="onDeleteTodo()" type="button" value="X" />
+    </div>
+
+</td>

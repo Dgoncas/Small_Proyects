@@ -1,0 +1,12 @@
+.add-todo{
+    display: flex;
+
+    .text{
+        flex-grow: 10;
+    }
+
+    .btn{
+        flex-grow: 2;
+    }
+
+}

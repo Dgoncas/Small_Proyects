@@ -1,0 +1,22 @@
+.todo-item{
+    border: 2px solid black;
+    
+    .todo-item-wrapper{
+        display: flex;
+
+        >*{
+            margin: 1rem;
+            display: inline-block;
+        }
+        
+        .completed{
+            text-decoration: line-through;
+        }
+
+        p{
+            flex-grow: 1;
+        }
+
+    }
+
+}
