@@ -1,0 +1,11 @@
+<div class="table">
+    <app-tile (tileClicked)="onTileClicked($event)" class="tile" *ngFor="let tile of tiles" class="tile" [tile]="tile"></app-tile>
+</div>
+
+<div [ngClass]="getMessageClasses()" class="message-wrapper">
+    <div class="message">
+        <h1>{{winner}}</h1>
+        <p>HAS WON THE GAME</p>
+        <input (click)="restart()" type="button" value="RESTART">
+    </div>
+</div>

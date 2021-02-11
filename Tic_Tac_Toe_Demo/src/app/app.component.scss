@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+}
+
+.game-wrapper{
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+    app-tic-tac-toe{
+        display: inline-block;
+    }
+}
