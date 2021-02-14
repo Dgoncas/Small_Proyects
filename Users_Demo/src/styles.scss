@@ -1,0 +1,26 @@
+@font-face{
+    font-family: Roboto-Black;
+    src: url(/assets/fonts/Roboto-Black.ttf) format('truetype');
+}
+
+:root{
+    font-size: 16px;
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 100%;
+}
+
+body{
+    font-family: Roboto-Black;
+}
+
+.title{
+    width: 100%;
+    color:white;
+    background-color: black;
+    padding: 1rem;
+}

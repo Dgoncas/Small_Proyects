@@ -1,0 +1,13 @@
+
+<a [routerLink]="['user']" [queryParams]="{id:this.user.id}">
+    <div class="user-wrapper">
+        <h3 class="username">{{ user.username }}</h3>
+        <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-alt-512.png" alt="">
+        <div class="information">
+            <h3>Name:</h3>
+            <p>{{user.name}}</p>
+            <h3>Phone:</h3>
+            <p>{{user.phone}}</p>
+        </div>
+    </div>
+</a>
