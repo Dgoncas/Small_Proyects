@@ -2,8 +2,20 @@
     position:relative;
     z-index: 0;
 
-    >* {
+    >*{
         position: relative;
+    }
+
+    app-section-a{
+        z-index: 1;
+    }
+
+    app-section-b{
+        z-index: 0;
+    }
+
+    app-section-c{
+        z-index: 1;
     }
 
 }

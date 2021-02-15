@@ -31,7 +31,7 @@
         .btns{
             display: flex;
             width: 100%;
-            margin-top: var(--red-space);
+            margin: var(--red-space) 0;
 
             .btn{
                 float: left;
@@ -52,6 +52,7 @@
         position:relative;
         grid-column: 2/3;
         height: 778px;
+        z-index: 2;
 
         img{ 
             width: calc(100% - var(--red-space));
@@ -66,18 +67,16 @@
     }
 }
 
-@media(max-width: 591px){
 
-    h1{
-        font-size: 3.5rem !important;
-    }
 
-}
+@media(max-width: 917px){
+    
+    .section-a{
 
-@media(max-width: 469px){
+        .image-wrapper{
+            display: none;
+        }
 
-    h1{
-        font-size: 3rem !important;
     }
 
 }

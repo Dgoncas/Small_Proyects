@@ -18,7 +18,7 @@
     --white-space: 3.125rem;
     --infinite: 10000000000;
 
-    font-size: 16px;
+    font-size: clamp(10px, calc(10px + 0.42vw), 16px);
     line-height: 300%;
 }
 
@@ -107,23 +107,3 @@ a{
 }
 
 /////////////////////////////////////////////////
-
-
-
-@media(max-width: 550px){
-    :root{
-        font-size: 14px;
-    }
-}
-
-@media(min-width: 550px){
-    :root{
-        font-size: 16px;
-    }
-}
-
-@media(max-width: 400px){
-    :root{
-        font-size: 12px;
-    }
-}

@@ -1,0 +1,38 @@
+.card-wrapper{
+    width: min-content;
+    position:relative;
+    background-color: red;
+    width: 100%;
+
+    .image{
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom center;
+    }
+
+    .information{
+        background-color: rgba(0,0,0,0.25);
+        padding: 1rem 0;
+        height: 37.5%;
+        position:absolute;
+        bottom: 0;
+        left:0;
+        text-align: center;
+        
+
+        .title{
+            color:white;
+        }
+    
+        .text{
+            text-align: center;
+            color:white;
+            padding: 0 min(4rem,5%);
+        }
+
+    }
+
+    .image{
+        display: block;
+    }
+}
